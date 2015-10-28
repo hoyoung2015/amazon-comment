@@ -1,0 +1,190 @@
+2015-10-27 22:29:11  [ pool-1-thread-1:5992 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/product-reviews/B00KD93EYW/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1', method='null', extras={statusCode=200, pro={id=3, comment_url=http://www.amazon.cn/product-reviews/B00KD93EYW/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1}}, priority=0} error
+java.lang.NullPointerException
+	at net.hoyoung.crawler.CommentsCrawler.process(CommentsCrawler.java:46)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:420)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 22:29:13  [ pool-1-thread-1:8870 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/product-reviews/B015E1SUS8/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1', method='null', extras={statusCode=200, pro={id=6, comment_url=http://www.amazon.cn/product-reviews/B015E1SUS8/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1}}, priority=0} error
+java.lang.NullPointerException
+	at net.hoyoung.crawler.CommentsCrawler.process(CommentsCrawler.java:46)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:420)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 22:29:17  [ pool-1-thread-1:12741 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/product-reviews/B00W8Y1410/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1', method='null', extras={statusCode=200, pro={id=10, comment_url=http://www.amazon.cn/product-reviews/B00W8Y1410/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1}}, priority=0} error
+java.lang.NullPointerException
+	at net.hoyoung.crawler.CommentsCrawler.process(CommentsCrawler.java:46)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:420)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 22:31:02  [ pool-1-thread-1:5220 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/product-reviews/B00KD93EYW/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1', method='null', extras={statusCode=200, pro={id=3, comment_url=http://www.amazon.cn/product-reviews/B00KD93EYW/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1}}, priority=0} error
+java.lang.NullPointerException
+	at net.hoyoung.crawler.CommentsCrawler.process(CommentsCrawler.java:46)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:420)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 22:31:02  [ pool-1-thread-1:5831 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/product-reviews/B015E1SUS8/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1', method='null', extras={statusCode=200, pro={id=6, comment_url=http://www.amazon.cn/product-reviews/B015E1SUS8/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1}}, priority=0} error
+java.lang.NullPointerException
+	at net.hoyoung.crawler.CommentsCrawler.process(CommentsCrawler.java:46)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:420)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 22:31:03  [ pool-1-thread-1:6564 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/product-reviews/B00W8Y1410/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1', method='null', extras={statusCode=200, pro={id=10, comment_url=http://www.amazon.cn/product-reviews/B00W8Y1410/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1}}, priority=0} error
+java.lang.NullPointerException
+	at net.hoyoung.crawler.CommentsCrawler.process(CommentsCrawler.java:46)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:420)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 22:31:30  [ pool-1-thread-1:3029 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/product-reviews/B00KD93EYW/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1', method='null', extras={statusCode=200, pro={id=3, comment_url=http://www.amazon.cn/product-reviews/B00KD93EYW/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1}}, priority=0} error
+java.lang.NullPointerException
+	at net.hoyoung.crawler.CommentsCrawler.process(CommentsCrawler.java:46)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:420)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 22:31:31  [ pool-1-thread-1:3576 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/product-reviews/B015E1SUS8/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1', method='null', extras={statusCode=200, pro={id=6, comment_url=http://www.amazon.cn/product-reviews/B015E1SUS8/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1}}, priority=0} error
+java.lang.NullPointerException
+	at net.hoyoung.crawler.CommentsCrawler.process(CommentsCrawler.java:46)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:420)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 22:31:32  [ pool-1-thread-1:4392 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/product-reviews/B00W8Y1410/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1', method='null', extras={statusCode=200, pro={id=10, comment_url=http://www.amazon.cn/product-reviews/B00W8Y1410/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1}}, priority=0} error
+java.lang.NullPointerException
+	at net.hoyoung.crawler.CommentsCrawler.process(CommentsCrawler.java:46)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:420)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 22:33:41  [ pool-1-thread-1:2848 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/product-reviews/B00KD93EYW/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1', method='null', extras={statusCode=200, pro={id=3, comment_url=http://www.amazon.cn/product-reviews/B00KD93EYW/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1}}, priority=0} error
+java.lang.NullPointerException
+	at net.hoyoung.crawler.CommentsCrawler.process(CommentsCrawler.java:49)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:420)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 22:33:42  [ pool-1-thread-1:3608 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/product-reviews/B015E1SUS8/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1', method='null', extras={statusCode=200, pro={id=6, comment_url=http://www.amazon.cn/product-reviews/B015E1SUS8/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1}}, priority=0} error
+java.lang.NullPointerException
+	at net.hoyoung.crawler.CommentsCrawler.process(CommentsCrawler.java:49)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:420)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 22:33:43  [ pool-1-thread-1:4703 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/product-reviews/B00W8Y1410/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1', method='null', extras={statusCode=200, pro={id=10, comment_url=http://www.amazon.cn/product-reviews/B00W8Y1410/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1}}, priority=0} error
+java.lang.NullPointerException
+	at net.hoyoung.crawler.CommentsCrawler.process(CommentsCrawler.java:49)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:420)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 22:35:37  [ pool-1-thread-1:2659 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/product-reviews/B00KD93EYW/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1', method='null', extras={statusCode=200, pro={id=3, comment_url=http://www.amazon.cn/product-reviews/B00KD93EYW/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1}}, priority=0} error
+java.lang.NullPointerException
+	at net.hoyoung.crawler.CommentsCrawler.process(CommentsCrawler.java:50)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:420)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 22:35:38  [ pool-1-thread-1:3213 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/product-reviews/B015E1SUS8/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1', method='null', extras={statusCode=200, pro={id=6, comment_url=http://www.amazon.cn/product-reviews/B015E1SUS8/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1}}, priority=0} error
+java.lang.NullPointerException
+	at net.hoyoung.crawler.CommentsCrawler.process(CommentsCrawler.java:50)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:420)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 22:35:38  [ pool-1-thread-1:4117 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/product-reviews/B00W8Y1410/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1', method='null', extras={statusCode=200, pro={id=10, comment_url=http://www.amazon.cn/product-reviews/B00W8Y1410/ref=acr_zeitgeist_text/477-4184450-6459515?ie=UTF8&showViewpoints=1}}, priority=0} error
+java.lang.NullPointerException
+	at net.hoyoung.crawler.CommentsCrawler.process(CommentsCrawler.java:50)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:420)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 22:55:58  [ pool-1-thread-1:506 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/ss/customer-reviews/ajax/reviews/get/ref=cm_cr_pr_btm_link_5', method='POST', extras={statusCode=0, scope=reviewsAjax5, asin=B008AGHPM2, deviceType=desktop, reftag=cm_cr_pr_btm_link_5, pageSize=10, pageNumber=5, reviewerType=all_reviews}, priority=0} error
+java.lang.NullPointerException
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.selectRequestMethod(HttpClientDownloader.java:161)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.getHttpUriRequest(HttpClientDownloader.java:133)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:91)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:408)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 22:56:45  [ pool-1-thread-1:515 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/ss/customer-reviews/ajax/reviews/get/ref=cm_cr_pr_btm_link_5', method='post', extras={statusCode=0, scope=reviewsAjax5, asin=B008AGHPM2, deviceType=desktop, reftag=cm_cr_pr_btm_link_5, pageSize=10, pageNumber=5, reviewerType=all_reviews}, priority=0} error
+java.lang.NullPointerException
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.selectRequestMethod(HttpClientDownloader.java:161)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.getHttpUriRequest(HttpClientDownloader.java:133)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:91)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:408)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 22:57:34  [ pool-1-thread-1:485 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/ss/customer-reviews/ajax/reviews/get/ref=cm_cr_pr_btm_link_5', method='post', extras={statusCode=0, scope=reviewsAjax5, asin=B008AGHPM2, deviceType=desktop, reftag=cm_cr_pr_btm_link_5, pageSize=10, pageNumber=5, reviewerType=all_reviews}, priority=0} error
+java.lang.NullPointerException
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.selectRequestMethod(HttpClientDownloader.java:161)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.getHttpUriRequest(HttpClientDownloader.java:133)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:91)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:408)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 23:00:25  [ pool-1-thread-1:489 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/ss/customer-reviews/ajax/reviews/get/ref=cm_cr_pr_btm_link_5', method='POST', extras={statusCode=0, scope=reviewsAjax5, asin=B008AGHPM2, deviceType=desktop, reftag=cm_cr_pr_btm_link_5, pageSize=10, pageNumber=5, reviewerType=all_reviews}, priority=0} error
+java.lang.NullPointerException
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.selectRequestMethod(HttpClientDownloader.java:161)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.getHttpUriRequest(HttpClientDownloader.java:133)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:91)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:408)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2015-10-27 23:06:00  [ pool-1-thread-1:477 ] - [ ERROR ]  process request Request{url='http://www.amazon.cn/ss/customer-reviews/ajax/reviews/get/ref=cm_cr_pr_btm_link_5', method='POST', extras={statusCode=0, nameValuePair=[Ljava.lang.Object;@6a3f8a94}, priority=0} error
+java.lang.ClassCastException: [Ljava.lang.Object; cannot be cast to [Lorg.apache.http.NameValuePair;
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.selectRequestMethod(HttpClientDownloader.java:160)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.getHttpUriRequest(HttpClientDownloader.java:133)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:91)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:408)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)

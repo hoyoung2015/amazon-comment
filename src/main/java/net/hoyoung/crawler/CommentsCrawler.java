@@ -2,11 +2,10 @@ package net.hoyoung.crawler;
 
 import net.hoyoung.utils.JDBCHelper;
 import org.apache.commons.lang.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.jdbc.core.JdbcTemplate;
-import us.codecraft.webmagic.Page;
-import us.codecraft.webmagic.Request;
-import us.codecraft.webmagic.Site;
-import us.codecraft.webmagic.Spider;
+import us.codecraft.webmagic.*;
 import us.codecraft.webmagic.processor.PageProcessor;
 import us.codecraft.webmagic.selector.Selectable;
 
@@ -52,10 +51,17 @@ public class CommentsCrawler implements PageProcessor{
             String t_total = an.get().replace(",", "");
             star_details[i] = Integer.valueOf(t_total);
         }
+        String asin = null;
+        String t_asin = page.getHtml().xpath("//span[@class=writeReviewButton]//a/@href").get();
+        m = Pattern.compile("asin=(\\w+)").matcher(t_asin);
+        if(m.find()){
+            asin = m.group(1);
+        }
         Map<String, Object> pro = (Map<String, Object>) page.getRequest().getExtra("pro");
-        int status = jdbcTemplate.update("UPDATE products SET status=?,total_comment=?,avg_star=?,star5=?,star4=?,star3=?,star2=?,star1=? where id=?",
+        int status = jdbcTemplate.update("UPDATE products SET status=?,total_comment=?,asin=?,avg_star=?,star5=?,star4=?,star3=?,star2=?,star1=? where id=?",
                 1,
                 total_comment,
+                asin,
                 avg_star,
                 star_details[0],
                 star_details[1],
@@ -64,12 +70,12 @@ public class CommentsCrawler implements PageProcessor{
                 star_details[4],
                 pro.get("id"));
         if(status==1){
-            System.out.println(pro.get("id")+" update successful");
+            logger.info(pro.get("id")+" update successful");
         }
     }
     private Site site = Site.me()
             .setRetryTimes(5)
-            .setSleepTime(300)
+            .setSleepTime(1000)
             .addHeader("Host", "www.amazon.cn")
             .addHeader(
                     "User-Agent",
@@ -78,9 +84,9 @@ public class CommentsCrawler implements PageProcessor{
     public Site getSite() {
         return site;
     }
-
+    Logger logger = LoggerFactory.getLogger(this.getClass());
     public static void main(String[] args) {
-        Spider spider = Spider.create(new CommentsCrawler());
+        Spider spider = RandomSleepSpider.create(new CommentsCrawler());
         List<Map<String, Object>> products = jdbcTemplate.queryForList("SELECT id,comment_url FROM products WHERE status=0");
         for (Map<String, Object> pro : products){
             Request req = new Request((String) pro.get("comment_url"));
