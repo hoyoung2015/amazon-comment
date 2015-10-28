@@ -2,64 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eb69b77-5311-4a36-aa7d-bdd5ed8d85ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/us/codecraft/webmagic/RandomSleepSpider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/hoyoung/TestRandomCrawler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/comment2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/comment3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/comment_end.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/product_comment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/test.html" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__com_alibaba_fastjson_1_1_37.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_core_2_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_databind_2_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__com_google_guava_guava_15_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__com_jayway_jsonpath_json_path_0_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__commons_codec_commons_codec_1_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__commons_dbcp_commons_dbcp_1_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__commons_io_commons_io_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__commons_lang_commons_lang_2_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__commons_pool_commons_pool_1_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__junit_junit_4_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__log4j_log4j_1_2_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__mysql_mysql_connector_java_5_1_18.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__net_minidev_json_smart_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__org_apache_commons_commons_lang3_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__org_apache_httpcomponents_httpclient_4_3_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__org_apache_httpcomponents_httpcore_4_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__org_assertj_assertj_core_1_5_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__org_hamcrest_hamcrest_core_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__org_jsoup_jsoup_1_7_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__org_slf4j_slf4j_api_1_7_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__org_slf4j_slf4j_log4j12_1_7_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__org_springframework_spring_beans_4_1_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__org_springframework_spring_core_4_1_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__org_springframework_spring_jdbc_4_1_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__org_springframework_spring_tx_4_1_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__redis_clients_jedis_2_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__us_codecraft_webmagic_core_0_5_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__us_codecraft_webmagic_extension_0_5_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\IntelliJ\amazon-comment\.idea\libraries\Maven__us_codecraft_xsoup_0_2_4.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/net/hoyoung/AppTest.class" afterPath="$PROJECT_DIR$/target/test-classes/net/hoyoung/AppTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/hoyoung/crawler/CommentsCrawler.class" afterPath="$PROJECT_DIR$/target/classes/net/hoyoung/crawler/CommentsCrawler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/hoyoung/crawler/ProductsCrawler.class" afterPath="$PROJECT_DIR$/target/classes/net/hoyoung/crawler/ProductsCrawler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/hoyoung/crawler/TestCrawler.class" afterPath="$PROJECT_DIR$/target/classes/net/hoyoung/crawler/TestCrawler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/net/hoyoung/TestParseProductList.class" afterPath="$PROJECT_DIR$/target/test-classes/net/hoyoung/TestParseProductList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/hoyoung/crawler/CommentsCrawler.java" afterPath="$PROJECT_DIR$/src/main/java/net/hoyoung/crawler/CommentsCrawler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/hoyoung/crawler/TestCrawler.java" afterPath="$PROJECT_DIR$/src/main/java/net/hoyoung/crawler/TestCrawler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/net/hoyoung/TestParseProductList.java" afterPath="$PROJECT_DIR$/src/test/java/net/hoyoung/TestParseProductList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/comment.html" afterPath="$PROJECT_DIR$/data/comment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/error.log" afterPath="$PROJECT_DIR$/logs/error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/test.sql" />
     </list>
     <ignored path="amazon-comment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCrawler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestCrawler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/hoyoung/crawler/TestCrawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17110266" vertical-offset="3835" max-vertical-offset="4600">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3835" max-vertical-offset="4600">
               <caret line="188" column="23" selection-start-line="188" selection-start-column="23" selection-end-line="188" selection-end-column="23" />
               <folding>
                 <marker date="1446017816901" expanded="true" signature="5056:5250" placeholder="INSERT INTO ..." />
@@ -112,6 +55,16 @@
                 <marker date="1446017816901" expanded="true" signature="8454:8498" placeholder="SELECT id,na..products..." />
                 <marker date="1446017816901" expanded="true" signature="8703:8741" placeholder="SELECT statu..products..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sql/test.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.022494888" vertical-offset="536" max-vertical-offset="1025">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -242,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/data/test.html" />
         <option value="$PROJECT_DIR$/src/main/java/net/hoyoung/crawler/TestCrawler.java" />
+        <option value="$PROJECT_DIR$/sql/test.sql" />
       </list>
     </option>
   </component>
@@ -580,7 +534,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="sql" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1025,16 +979,16 @@
       <updated>1445950355476</updated>
       <workItem from="1445950362360" duration="9248000" />
       <workItem from="1445993579007" duration="19274000" />
-      <workItem from="1446015991687" duration="2015000" />
+      <workItem from="1446015991687" duration="2077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30537000" />
+    <option name="totallyTimeSpent" value="30599000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1050,7 +1004,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26041666" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249375" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249375" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1518,7 +1472,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/hoyoung/crawler/TestCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17110266" vertical-offset="3835" max-vertical-offset="4600">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3835" max-vertical-offset="4600">
           <caret line="188" column="23" selection-start-line="188" selection-start-column="23" selection-end-line="188" selection-end-column="23" />
           <folding>
             <marker date="1446017816901" expanded="true" signature="5056:5250" placeholder="INSERT INTO ..." />
@@ -1528,6 +1482,14 @@
             <marker date="1446017816901" expanded="true" signature="8454:8498" placeholder="SELECT id,na..products..." />
             <marker date="1446017816901" expanded="true" signature="8703:8741" placeholder="SELECT statu..products..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/test.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.022494888" vertical-offset="536" max-vertical-offset="1025">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
